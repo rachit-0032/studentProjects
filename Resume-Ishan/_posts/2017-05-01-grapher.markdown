@@ -1,0 +1,21 @@
+---
+title:  "Grapher"
+date:   2017-05-01 12:00:00
+categories: [Projects]
+tags: [Projects]
+---
+<b><font size = "5">Grapher - a Turbo C++ implementation of a Graph Plotter</font></b>
+
+<font size = "3">
+
+<p>‘Grapher’ is a Turbo C++ program which helps us to plot the graphs of polynomial functions, conic sections (circle, parabola, ellipse, hyperbola or pair of straight lines) and some special graphs (sin(x), tan(x), greatest integer function, etc.)</p>
+
+<p>The program takes certain values from the user like coefficients, scale, precision, etc. as input and for this, some knowledge of basic geometry is required</p>
+
+<p>During execution of program, zooming in and zooming out are possible which helps the user to understand the nature of the curve better</p>
+
+<p>Overall, this program is sure to be a student’s delight where he can play along in the world of graphs</p>
+
+<p><a href ="https://github.com/iCoder0020/Grapher">Here</a> is a link to my repository which contains the code and documentation of this project.</p>
+
+</font>

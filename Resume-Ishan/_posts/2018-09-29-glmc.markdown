@@ -1,0 +1,28 @@
+---
+title:  "GLMC"
+date:   2018-09-29 20:00:00
+categories: [Projects]
+tags: [Projects]
+---
+<b><font size = "5">GLMC</font></b>
+
+<p>glmc Linear Algebra Library for OpenGL in C</p>
+
+<p>This library is meant to be used as a C replacement for glm, with a plan of a wrapper for python.</p>
+
+<p>The library contains implementations of all the operations on vectors and matrices which are essential for a basic linear algebra library. The supported types are vectors of dimensions 2, 3 and 4; matrices of sizes 2x2, 3x3 and 4x4; and corresponding one-dimensional arrays.</p>
+
+<p>The library is capable of performing basic arithmetic(addition, subtraction, multiplication, division) on vectors and matrices. 
+
+Vector functions also include finding the vector length, normalisation of vectors, dot product, cross product(only for 3x3 matrices), etc. 
+
+Other matrix operations include finding it's transpose, determinant, inverse, normalised form, etc. Also some frequently used matrices like identity matrix, rotation matrix, projections matrices have already been defined.</p>
+
+<p>The input_matrix functions allows the user to normalise the matrices as soon as they are fed into the system if the -NORMALISE flag is used.</p>
+
+<p>Most of the code is hard-coded to ensure maximal speed performance</p>
+
+<p><b>NOTE:</b> The vectors used are <b>column vectors</b> and all data stored in matrices is in <b>column major order</b>. Thus, the multiplication of vectors and matrices is defined as matrix * vector and not as vector * matrix.</p>
+
+
+<p><a href ="https://github.com/iCoder0020/glmc">Here</a> is a link to my repository which contains the library and the driver program of this project.</p>
