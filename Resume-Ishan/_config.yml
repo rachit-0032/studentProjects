@@ -1,0 +1,43 @@
+# Site settings
+title: Ishan Sang
+description: 'An Aspiring Data Scientist'
+url: 'http://joshgerdes.com/ishan-sang'
+baseurl: ''
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
+
+author:
+  name: 'Ishan Sang'
+  email: ishansang1999@gmail.com
+  twitter_username: ishansang20
+  facebook_username: ishan.sang
+  github_username: iCoder0020
+  linkedin_username: ishan-sang-1b84b8169
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+plugins: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock']
