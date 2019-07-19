@@ -1,0 +1,266 @@
+@charset "UTF-8"
+
+/*Main HTML and BODY*/
+/*********************************************/
+
+html, body{
+    height: 100%;
+    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+	-webkit-text-size-adjust: none;
+}
+
+body{
+    margin: 0px;
+    padding: 0px; 
+    background: #000000;    /*it is the actual backround color behind the photos and all content*/
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12pt;
+    color: #000000;
+}
+
+/*Navigation Bar*/
+/**********************************************/
+
+#navBar{
+    background: #fcf15d;
+}
+
+#navBar #insideNavBar{
+    width: 90%;
+    margin: 0px auto 0px auto;
+    padding: 0px 0px 0px 0px;
+    overflow: hidden;
+    background: #fcf15d;
+}
+
+/* #navBar #insideNavBar #name{
+    margin: 0px;
+    padding: 20px 0px 20px 0px;
+    float: left;
+    font-size: 20pt;
+}
+
+#navBar #insideNavBar #name a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16pt;
+    text-decoration: none;
+    color: #33b400;
+    padding: 0px;
+    margin:0px;
+    display: block;
+} */
+
+#navBar #insideNavBar nav{
+    float: right;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+}
+
+#navBar #insideNavBar nav ul{
+    list-style: none;
+    display: block;
+    margin: 0px;
+    padding:0px;
+}
+
+#navBar #insideNavBar nav ul li{
+    float: left;
+    font-size: 14pt;
+    margin: 0px;
+    padding: 30px 0px 30px 0px;
+    background:#fcf15d;;
+	font-family: Open Sans;
+}
+
+#navBar #insideNavBar nav ul li:hover{
+    background: #33b400;
+	cursor: pointer;
+	-webkit-transition: background 600ms linear;
+	-moz-transition: background 600ms linear;
+	-ms-transition: background 600ms linear;
+	-o-transition: background 600ms linear;
+	transition: background 600ms linear;
+}
+
+#navBar #insideNavBar nav ul li:hover a
+{
+	color:#ffffff;
+}
+
+#navBar #insideNavBar nav ul li a{
+	text-decoration: none;
+	color:#7A7B86;
+	font-weight: 500;
+	padding: 0px 10px 0px 10px;
+	clear: both;
+}
+
+/* ABOUT ME */
+/*******************************************/
+
+#aboutMe{
+    text-align: center;
+    background-color: #ffffff;
+}
+
+#aboutMe #picture{
+    width: 50%;
+    float: left;
+    background-color: #ffffff;
+    margin: 50px 0px;
+}
+
+#aboutMe #picture #pictureMe {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    background-image: url('../Images/myPic.png');
+    background-size: cover;
+    background-position: center; 
+    box-sizing: padding-box;
+    display: block;
+    margin: auto;
+}
+
+#aboutMe #infoMe{
+    width: 50%;
+    float: left;
+    background-color: #ffffff;
+    margin:50px 0px;
+}
+
+#aboutMe:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#aboutMe #infoMe h4 {
+	color: #232323;
+	font-weight: 400;
+	text-align: center;
+	/* text-transform: uppercase; */
+	font-size: 2.25em;
+	letter-spacing:3px;
+	line-height: 10%;
+	margin-top: 100px;
+}
+
+#aboutMe #infoMe h5{
+	text-align: center;
+	font-size: 0.75em;
+	width: 550px!important;
+	margin: 0 auto 0 auto;
+	padding: 18px;
+	height: auto;
+	color: #fbfbfb;
+	font-weight: 900;
+	line-height: 50%;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	background-color: #232323;
+}
+
+#aboutMe p {
+	width: 80%;
+	margin: 20px auto 0 auto;
+	font-size: .85em;
+	letter-spacing: 1px;
+	line-height: 190%;
+	text-align: center;
+	color: #232323;
+}
+
+/*ACADEMICS*/
+/*******************************************************/
+
+#academics{
+    text-align: center;
+    background-color: #ffffff;
+}
+
+#academics #headBar h4{
+    text-align: center;
+    font-size: 0.90em;
+    color: #fbfbfb;
+	font-weight: 900;
+	line-height: 50%;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+    width: 90%;
+	margin: 0 auto 0 auto;
+	padding: 18px;
+	height: auto;
+    background-color: #052783;
+    /* border-radius: 10px; */
+}
+
+#academics #bulletAcademics{
+    width: 50%;
+    float: left;
+    background-color: #ffffff;
+    margin: 50px 0px;
+}
+
+#academics #bulletAcademics li{
+    width: 80%;
+	margin: 10px auto 0 auto;
+    font-size: 1em;
+    font-weight: 500;
+	letter-spacing: 1px;
+	line-height: 190%;
+	text-align: left;
+    color: #232323;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#academics #logoAcademics{
+    width: 50%;
+    float: left;
+    background-color: #ffffff;
+    margin: 50px 0px;
+}
+
+#academics:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#academics #logoAcademics #IITlogo{
+    /* border-radius: 50%; */
+    width: 180px;
+    height: 180px;
+    background-image: url('../Images/IITlogo.png');
+    background-size: cover;
+    background-position: center; 
+    box-sizing: padding-box;
+    display: block;
+    margin-left: 0px;
+    float: left;
+}
+
+#academics #logoAcademics #CBSElogo{
+    /* border-radius: 0%; */
+    width: 160px;
+    height: 180px;
+    background-image: url('../Images/CBSElogo.png');
+    background-size: cover;
+    box-sizing: padding-box;
+    display: block;
+    margin-left: 50px;
+    float: left;
+}
+
+#academics #logoAcademics #NEPSlogo{
+    /* border-radius: 30%; */
+    width: 180px;
+    height: 180px;
+    background-image: url('../Images/NEPSlogo.png');
+    background-size: cover;
+    background-position: center; 
+    box-sizing: padding-box;
+    display: block;
+    margin-left: 50px;
+    float: left;
+}
